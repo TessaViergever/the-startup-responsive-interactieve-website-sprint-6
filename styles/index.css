@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    /* display: flex;
+   flex-wrap: wrap; */
+
+}
+
+body {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+p {}
+
+a {}
+
+/* CUSTOM PROPERTIES */
+:root {
+    --color-light-light-blue:rgb(187, 224, 255);
+    --color-light-blue:rgba(127, 180, 224, 1);
+    --color-light-green:rgba(155, 211, 146, 1);
+    --color-logo-blue:rgba(33, 109, 172, 1);     
+    --color-logo-green:rgba(76, 145, 65, 1);
+    --color-sand:rgba(188, 188, 188, 0.5);
+
+    --buton-bg: var();
+    --button-text: var();
+    --button-bg-hover: var();
+    --button-bg-click: var();
+
+    --bg-color-block-even: var(--color-light-blue);
+    --bg-color-section-uneven:var(--color-sand);
+
+    --box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --border-radius:;
+
+    --padding:;
+    --margin:;
+    
+}
+
+/* HEADER STYLING */
+
+header {
+position: fixed;
+background-color: white;
+display:flex;
+flex-direction: row;
+}
+
+header nav {
+    padding: 1rem 6vw;
+}
+
+header nav ul {
+    list-style: none;
+    /* display: flex; 
+	gap: 1rem;
+	padding: 0;  */
+}
+
+
+button {
+    background-color: var(--color-light-light-blue);
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 5px;
+    font-size:0.8em;
+    box-shadow: var(--box-shadow);
+}
+
+:hover {
+    
+}
+
+.section-uneven {
+    background-color: var(--color-sand);
+    box-shadow: var(--box-shadow);
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+    background:rgb(187, 224, 255);
+
+}
+
+  
+  
+
+
+/*  MEDIA QUERIES */
+
+@media screen and (min-width: 40rem) {
+    .body {
+        background: pink;
+    }  
+}
