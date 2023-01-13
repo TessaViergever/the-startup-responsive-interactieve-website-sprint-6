@@ -1,19 +1,19 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.6rem;
-    /* display: flex;
-   flex-wrap: wrap; */
-
+    font-family: sans-serif;
+    /* font-size: 1.6rem; --> hoe stel ik dit goed in? */
 }
 
 body {
    display: flex;
    flex-wrap: wrap;
+   flex-direction: column;
 }
 
-h1 {}
+h1 {
+
+}
 
 h2 {}
 
@@ -21,7 +21,8 @@ h3 {}
 
 h4 {}
 
-p {}
+p {
+}
 
 a {}
 
@@ -34,16 +35,15 @@ a {}
     --color-logo-green:rgba(76, 145, 65, 1);
     --color-sand:rgba(188, 188, 188, 0.5);
 
-    --buton-bg: var();
-    --button-text: var();
-    --button-bg-hover: var();
-    --button-bg-click: var();
+    --buton-bg: var(--color-light-light-blue);
+    --button-bg-hover: var(--color-light-blue);
+    --button-bg-click: var(--color-logo-blue);
 
     --bg-color-block-even: var(--color-light-blue);
     --bg-color-section-uneven:var(--color-sand);
 
     --box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    --border-radius:;
+    --border-radius:5px;
 
     --padding:;
     --margin:;
@@ -54,13 +54,16 @@ a {}
 
 header {
 position: fixed;
+z-index: 10;
+width: 100%;
 background-color: white;
 display:flex;
 flex-direction: row;
 }
 
 header nav {
-    padding: 1rem 6vw;
+    padding: 1rem 2vw;
+
 }
 
 header nav ul {
@@ -70,17 +73,41 @@ header nav ul {
 	padding: 0;  */
 }
 
+/* STYLING SECTION: BANNER  */
+
+#banner {
+    width:100%;
+}
+
+#banner img {
+    width:100%;
+    position: absolute;
+    
+}
+
+#banner div {
+    background: var(--color-light-green);
+    padding: 2rem 2rem 2rem 2rem;   
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: var(--border-radius); 
+    position: relative;
+}
+
 
 button {
     background-color: var(--color-light-light-blue);
     padding: 0.5em 1em 0.5em 1em;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     font-size:0.8em;
     box-shadow: var(--box-shadow);
 }
 
 :hover {
-    
+
 }
 
 .section-uneven {
@@ -89,11 +116,23 @@ button {
 }
 
 
+section {
+    margin-top:25rem;
+}
+
+
+
+
+
+
+
+
 /* FOOTER STYLING */
 
 footer {
     background:rgb(187, 224, 255);
-
+    font-style:italic;
+    padding: 2rem 4rem; 
 }
 
   
