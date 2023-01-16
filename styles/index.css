@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: sans-serif;
-    /* font-size: 1.6rem; --> hoe stel ik dit goed in? */
+    /* font-size: 100%; */
 }
 
 body {
@@ -15,16 +15,27 @@ h1 {
 
 }
 
-h2 {}
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em 1em 1em 1em;
+}
 
 h3 {}
 
 h4 {}
 
 p {
+    padding: 1em 1em 1em 1em;
 }
 
 a {}
+
+ 
+/* img {  
+    width: 100%;
+}  */
 
 /* CUSTOM PROPERTIES */
 :root {
@@ -33,7 +44,7 @@ a {}
     --color-light-green:rgba(155, 211, 146, 1);
     --color-logo-blue:rgba(33, 109, 172, 1);     
     --color-logo-green:rgba(76, 145, 65, 1);
-    --color-sand:rgba(188, 188, 188, 0.5);
+    --color-sand:rgba(245, 245, 245, 1);
 
     --buton-bg: var(--color-light-light-blue);
     --button-bg-hover: var(--color-light-blue);
@@ -45,8 +56,9 @@ a {}
     --box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --border-radius:5px;
 
-    --padding:;
-    --margin:;
+    /* --component-padding:;
+    --component-margin:;
+    --component-spacing:0 1rem 1rem 1rem; */
     
 }
 
@@ -73,11 +85,18 @@ header nav ul {
 	padding: 0;  */
 }
 
+
+
+
+
+
 /* STYLING SECTION: BANNER  */
 
 #banner {
-    width:100%;
+    width: 100%;
+    margin-top: 30rem;
 }
+
 
 #banner img {
     width:100%;
@@ -98,6 +117,13 @@ header nav ul {
 }
 
 
+
+/* STYLING SECTION: HOW IT WORKS */
+
+#how-it-works {
+    
+}
+
 button {
     background-color: var(--color-light-light-blue);
     padding: 0.5em 1em 0.5em 1em;
@@ -110,15 +136,43 @@ button {
 
 }
 
+/* STYLING SECTION: SERVICES */
+
+#services div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0 5rem 0 4rem;
+}
+
+#services img {
+    border-radius: 50%;
+    padding: 5rem;
+}
+#services div h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#services div h3 {
+    margin: 1rem 0;
+}
+
+
+/* STYLING SECTION: PRODUCTS */
+/* STYLING SECTION: OUR TEAM */
+/* STYLING SECTION: CONTACT */
+
+/* SECTION STYLING */
+
 .section-uneven {
     background-color: var(--color-sand);
     box-shadow: var(--box-shadow);
 }
 
 
-section {
-    margin-top:25rem;
-}
 
 
 
