@@ -7,7 +7,7 @@
     <title>Water 4 Later</title>
     <link rel="stylesheet" href="./styles/index.css">
     <!-- <script src="" defer></script> (er is nog geen JS) -->
-    <!-- <link rel="icon" type="image/x-icon" href=""> (er is nog geen favicon) -->
+    <link rel="icon" type="image/x-icon" href="./assets/logo-water4later.png">
 </head>
 
 
@@ -38,31 +38,31 @@
             <li><a href="#contact"> Contact</a></li>
         </ul>
     </nav>
-    
-        <!-- section: regenquote + maak afspraak -->
-        <section id="banner">
-            <img src="./assets/background-banner-rain.webp" alt="close-up van regendruppels die de grond raken">
-            <div>
-                <h1>"Samen tegen drinkwaterverspilling"</h1>
-                <button>Maak afspraak</button>
-            </div>
-        </section>
 
-        <main>
+    <!-- section: regenquote + maak afspraak -->
+    <section id="banner">
+        <img src="./assets/background-banner-rain.webp" alt="close-up van regendruppels die de grond raken">
+        <div>
+            <h1>"Samen tegen drinkwaterverspilling"</h1>
+            <button>Maak afspraak</button>
+        </div>
+    </section>
+
+    <main>
         <!-- section: hoe het werkt -->
-        <section id="how-it-works">
+        <section class="section-even" id="how-it-works">
             <h2>Hoe het werkt</h2>
-            <p> Met kijk op het veranderende klimaat in Nederland krijgen we steeds vaker te maken met lange periodes van droogte
-                 die zich afwisselen met felle regen- en onweersbuien. In de periodes van droogte is er vaak een tekort aan schoon water. 
-                 Toch gebruiken we in deze droge periodes het schaarse water, terwijl er in de natte periodes water in overvloed is. </p> 
-             <p>   
-                Om dit tegen te gaan vangen steeds meer mensen hun hemelwater op. Een watertank neemt veel ruimte in beslag en is vaak 
-                een grote ingreep. Onze oplossing: een waterzak in de kruipruimte van uw woning. Hier kunt u duizenden liters water in 
-                opslaan, zonder dat er kostbare ruimte verloren gaat.</p>
+            <p> In Nederland krijgen we door klimaatveranderingen steeds vaker te maken met lange periodes van droogte. Deze wisselen zich af 
+                met felle regen- en onweersbuien. Tekort aan schoon water is tijdens de droogte een groot probleem. Toch gebruiken we dat 
+                schaarse schone water. </p>
+            <p>
+                Steeds meer mensen vangen daarom het overvloedige hemelwater in de natte periodes op. Een watertank neemt echter veel ruimte in beslag en is vaak
+                een grote ingreep. Onze oplossing: een waterzak in de kruipruimte van uw woning. Hier kunt u duizenden
+                liters water in opslaan, zonder kostbare ruimte te verliezen.</p>
             </div>
 
             <div class="technical-drawing-info">
-                <h3>Water opvangen via dak</h3>
+                <h3>1. Water opvangen via dak</h3>
                 <p>Het regenwater wordt opgevangen op het dak en loopt via de regenpijp de waterzak in.
                     Met een dakoppervlak van 70m2 vangt u jaarlijks 56.000 liter water op!</p>
                 <img src="./assets/waterzak-irm-watermanager.png"
@@ -70,7 +70,7 @@
             </div>
 
             <div class="technical-drawing-info">
-                <h3>Het regenwater wordt opgevangen in waterzak</h3>
+                <h3>2. Het regenwater wordt opgevangen in waterzak</h3>
                 <p>Door middel van een tussenput loopt het water de waterzak in. De zak is gemaakt van EPDM-rubber
                     waardoor lekgaan van de zak onmogelijk is. Weerinvloeden zijn niet van toepassing waardoor het
                     water in de zak van hoge kwaliteit blijft.</p>
@@ -79,7 +79,7 @@
             </div>
 
             <div class="technical-drawing-info">
-                <h3>Regenwater wordt gebruikt voor wc, was en tuin</h3>
+                <h3>3. Regenwater wordt gebruikt voor wc, was en tuin</h3>
                 <p>Het water in de waterzak wordt met een pomp naar de locaties gepompt. Met dit water kunt u de wc
                     mee doorspoelen, de was doen en de tuin water geven! Dit bespaart tot 50% kostbaar drinkwater!</p>
                 <img src="./assets/prefab-schacht-waterzak.png"
@@ -95,48 +95,50 @@
         <section class="section-uneven" id="services">
             <h2>Onze diensten</h2>
 
-            <div>
-                <img src="./assets/advies-icon.webp"
-                    alt="icoon van een hand met daarboven een praatwolk met daarin een afgevinkt hokje">
-                <h3>Advies</h3>
-                <p>We zullen uw bedrijf een adviesrapport op maat verlenen. Hierbij zal er gekeken worden wat de beste
-                    mogelijkheden zijn wat betreft uw pand/project. Er zullen hiervoor metingen en gegevens verzameld
-                    worden
-                    door een van ons, dit zal gebeuren bij u op locatie.</p>
-            </div>
-            <div>
-                <img src="./assets/installatie-icon.webp" alt="">
-                <h3>Installatie</h3>
-                <p>Wij werken samen met gecertificeerde vakmensen die het systeem op locatie komen installeren. Doordat
-                    het
-                    gelijk in de onderbouwfase wordt meegenomen met de graafwerkzaamheden zullen er geen extra
-                    aanpassing
-                    voor nodig zijn om het systeem te installeren. In de afbouwfase zal het systeem gekoppeld worden.
-                </p>
-            </div>
-            <div>
-                <img src="./assets/subsidie-icon.webp" alt="">
-                <h3>Subsidie</h3>
-                <p>Doordat uw bedrijf bij draagt aan een duurzame toekomst wil de gemeente een deel meebetalen in de
-                    vorm
-                    van een subsidie. Om subsidie te ontvangen is het van belang dat dit proces goed en tijdig ingang
-                    wordt
-                    gezet. Daarom geven wij subsidie advies.</p>
+            <div class="services-container">
+                <div>
+                    <img src="./assets/advies-icon.webp"
+                        alt="icoon van een hand met daarboven een praatwolk met daarin een afgevinkt hokje">
+                    <h3>Advies</h3>
+                    <p>We zullen uw bedrijf een adviesrapport op maat verlenen. Hierbij zal er gekeken worden wat de
+                        beste
+                        mogelijkheden zijn wat betreft uw pand/project. Er zullen hiervoor metingen en gegevens
+                        verzameld
+                        worden door een van ons, dit zal gebeuren bij u op locatie.</p>
+                </div>
+                <div>
+                    <img src="./assets/installatie-icon.webp" alt="">
+                    <h3>Installatie</h3>
+                    <p>Wij werken samen met gecertificeerde vakmensen die het systeem op locatie komen installeren.
+                        Doordat
+                        het gelijk in de onderbouwfase wordt meegenomen met de graafwerkzaamheden zullen er geen extra
+                        aanpassing voor nodig zijn om het systeem te installeren. In de afbouwfase zal het systeem
+                        gekoppeld worden.
+                    </p>
+                </div>
+                <div>
+                    <img src="./assets/subsidie-icon.webp" alt="">
+                    <h3>Subsidie</h3>
+                    <p>Doordat uw bedrijf bij draagt aan een duurzame toekomst wil de gemeente een deel meebetalen in de
+                        vorm van een subsidie. Om subsidie te ontvangen is het van belang dat dit proces goed en tijdig
+                        ingang
+                        wordt gezet. Daarom geven wij subsidie advies.</p>
+                </div>
             </div>
         </section>
 
         <!-- section: onze producten -->
-        <section id="products">
+        <section class="section-even" id="products">
             <h2>Onze producten</h2>
             <div>
                 <a href=""><img src="" alt=""></a>
                 <h3>Systeem voor huizen</h3>
-                <button>meer info</button>
+                <button>Meer info</button>
             </div>
             <div>
                 <a href=""><img src="" alt=""></a>
                 <h3>Schuttingsysteem</h3>
-                <button>meer info</button>
+                <button>Meer info</button>
             </div>
         </section>
 
@@ -144,7 +146,7 @@
         <section class="section-uneven" id="our-team">
             <h2>Ons Team</h2>
             <div>
-                <img src="./assets/profielfoto-jim-paase.webp">
+                <img src="./assets/profielfoto-jim-paase.webp" alt="Foto van Jim Paase, Co-founder van Water 4 Later">
                 <p>Co-founder</p>
                 <h3>Jim Paase</h3>
                 <p>Ik heb een achtergrond in de bouwwereld en heb hier veel kennis en connecties in.
@@ -154,7 +156,8 @@
                 <a href="">LinkedIn Icon</a>
             </div>
             <div>
-                <img src="./assets/profielfoto-bart-boonstra.webp">
+                <img src="./assets/profielfoto-bart-boonstra.webp"
+                    alt="Foto van Bart Boonstra, Co-founder van Water 4 Later">
                 <p>Co-founder</p>
                 <h3>Bart Boonstra</h3>
                 <p>Met verschillende achtergronden in de bouwwereld wilde ik mijn passie en problemen van drinkwater
@@ -169,23 +172,102 @@
         <!-- section: contact -->
         <section id="contact">
             <h2>Contact</h2>
+            <div class="footer-contact-container">
+                <div id="footer-contact">
+                    <h3>Neem vrijbijvend contact met ons op</h3>
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="53.5 36.5 93 127" viewBox="53.5 36.5 93 127"
+                        height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                        aria-hidden="true" aria-labelledby="svgcid--b5twhf-vtho95">
+                        <defs>
+                            <style>
+                                #comp-l8u7f1sg3 svg [data-color="1"] {
+                                    fill: #2B8844;
+                                }
+                            </style>
+                        </defs>
+                        <title id="svgcid--b5twhf-vtho95"></title>
+                        <g>
+                            <path
+                                d="M99.999 163.5l-3.25-3.895C94.986 157.487 53.5 107.468 53.5 82.916 53.5 57.323 74.359 36.5 99.999 36.5c25.644 0 46.501 20.823 46.501 46.416 0 24.551-41.483 74.571-43.252 76.688l-3.249 3.896zm0-118.56c-20.978 0-38.046 17.036-38.046 37.977 0 16.359 25.019 51.015 38.046 67.305 13.029-16.29 38.048-50.946 38.048-67.305 0-20.942-17.068-37.977-38.048-37.977z"
+                                fill="#2F54DD" data-color="1"></path>
+                            <path
+                                d="M99.999 101.658c-10.351 0-18.775-8.407-18.775-18.741 0-10.335 8.424-18.743 18.775-18.743 10.353 0 18.777 8.408 18.777 18.743 0 10.333-8.424 18.741-18.777 18.741zm0-29.046c-5.69 0-10.32 4.621-10.32 10.304 0 5.68 4.63 10.303 10.32 10.303 5.692 0 10.324-4.622 10.324-10.303 0-5.682-4.632-10.304-10.324-10.304z"
+                                fill="#2F54DD" data-color="1"></path>
+                        </g>
+                    </svg>
+                    Amsterdam
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="38.999 39 122.001 122"
+                        viewBox="38.999 39 122.001 122" height="20" width="20" xmlns="http://www.w3.org/2000/svg"
+                        data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid-9sh2wp-64p1er">
+                        <defs>
+                            <style>
+                                #comp-l8u7f1sm svg [data-color="1"] {
+                                    fill: #2B8844;
+                                }
+                            </style>
+                        </defs>
+                        <title id="svgcid-9sh2wp-64p1er"></title>
+                        <g>
+                            <path
+                                d="M66.248 47.383c2.234 0 4.783.813 6.746 3.742 5.289 7.88 10.39 15.304 13.215 20.359.956 1.715 1.884 6.569-1.238 10.083-2.696 3.029-5.074 3.772-6.511 5.984-.985 1.524-2.11 4.931-.259 8.848 2.213 4.678 4.913 8.52 10.838 14.54 6.018 5.917 9.859 8.615 14.546 10.829 1.53.722 2.984.99 4.276.99 2.019 0 3.647-.651 4.573-1.249 2.213-1.434 2.958-3.812 5.989-6.507 1.827-1.621 4.014-2.15 5.935-2.15 1.779 0 3.33.454 4.152.916 5.057 2.82 12.484 7.919 20.372 13.203 5.532 3.707 3.515 9.499 2.736 11.32-.783 1.821-4.788 7.847-13.4 12.352-2.37 1.239-5.497 1.974-9.288 1.974-11.935 0-30.424-7.304-52.356-29.225-28.895-28.88-32.402-51.787-27.261-61.607 4.506-8.61 10.536-12.613 12.36-13.392.854-.368 2.589-1.01 4.575-1.01zm0-8.383c-3.278 0-6.106.923-7.9 1.699C54.8 42.211 47.294 47.555 41.88 57.9c-6.765 12.922-3.295 39.381 28.762 71.419C98.22 156.883 118.998 161 128.929 161c5.024 0 9.457-.987 13.175-2.93 10.331-5.404 15.687-12.899 17.222-16.475 3.579-8.37 1.312-16.839-5.772-21.589-1.216-.813-2.421-1.623-3.606-2.42-6.566-4.414-12.769-8.585-17.35-11.141-2.239-1.252-5.244-1.975-8.238-1.977-4.382 0-8.36 1.473-11.504 4.264-2.088 1.855-3.389 3.574-4.34 4.827-.196.259-.44.582-.628.813h-.027c-.197 0-.43-.062-.694-.187-3.482-1.644-6.597-3.675-12.199-9.178-5.508-5.6-7.54-8.714-9.185-12.193-.152-.321-.191-.558-.189-.718.231-.188.557-.433.817-.63 1.255-.95 2.973-2.249 4.826-4.33 5.306-5.974 5.143-14.623 2.3-19.731-2.579-4.614-6.782-10.857-11.234-17.465-.772-1.148-1.557-2.312-2.346-3.487C76.736 41.648 71.866 39 66.248 39z"
+                                fill="#2F54DD" data-color="1"></path>
+                        </g>
+                    </svg>
+                    +31 06 39 83 40 33
 
-            <h3>Neem vrijbijvend contact met ons op</h3>
-            <p>Locatie: Amsterdam</p>
-            <p>Telefoonnummer: +31 06 39 83 40 33</p>
-            <p>E-mailadres: water4later@gmail.com</p>
-            <p>Socialmedia:</p>
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="35 56 130 88" viewBox="35 56 130 88" height="20"
+                        width="20" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                        aria-hidden="true" aria-labelledby="svgcid--1j8os6bfa5ld">
+                        <defs>
+                            <style>
+                                #comp-l8u7f1sp svg [data-color="1"] {
+                                    fill: #2B8844;
+                                }
+                            </style>
+                        </defs>
+                        <title id="svgcid--1j8os6bfa5ld"></title>
+                        <g>
+                            <path
+                                d="M35 56v88h130V56H35zm64.879 58.87L49.15 64.499h101.455L99.879 114.87zM72.191 99.311l-28.755 30.025V70.757l28.755 28.554zm6.009 5.967l21.679 21.525 21.677-21.525 28.93 30.224H49.254L78.2 105.278zm49.364-5.967l29-28.796v59.092l-29-30.296z"
+                                fill="#2F54DD" data-color="1"></path>
+                        </g>
+                    </svg>
+                    water4later@gmail.com
+
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="42 39.499 116 121" viewBox="42 39.499 116 121"
+                        height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                        aria-hidden="true">
+                        <defs>
+                            <style>
+                                #comp-l8u7f1ss svg [data-color="1"] {
+                                    fill: #2B8844;
+                                }
+                            </style>
+                        </defs>
+                        <g>
+                            <path
+                                d="M153.456 94.317c-3.926-5.122-9.922-7.943-16.878-7.943h-12.117c4.984-10.908 5.154-26.807 1.188-36.237-2.887-6.862-7.829-10.638-13.919-10.638-1.652 0-3.381.29-5.14.855-8.689 2.802-9.015 9.724-9.303 15.83-.42 8.874-1.056 21.923-23.628 38.773v-8.465H42v72.826h31.66v-9.008c5.418 4.908 13.13 10.189 21.245 10.189h36.611c7.637 0 15.169-5.777 17.152-13.15l8.222-30.59c2.272-8.452 1.021-16.634-3.434-22.442zm-88.219 56.579H50.423V94.92h14.814v55.976zm83.517-36.324l-8.222 30.592c-.989 3.685-5.201 6.911-9.015 6.911H94.905c-7.958 0-17.306-9.198-21.245-13.896v-32.876c30.727-20.874 31.546-38.253 32.042-48.721.304-6.46.663-7.302 3.472-8.211.922-.297 1.784-.447 2.557-.447 2.555 0 4.622 1.844 6.152 5.48 4.2 9.986 2.012 27.905-4.183 34.236l-7.003 7.157h29.88c4.339 0 7.865 1.605 10.192 4.644 2.849 3.716 3.572 9.227 1.985 15.131z"
+                                fill="#2F54DD" data-color="1"></path>
+                        </g>
+                    </svg>
+                </div>
 
 
-            <h3>Of laat hier je gegevens achter zodat wij contact met jou op kunnen nemen</h3>
-            <form>
-                <label>Voornaam</label><input type="text" placeholder="Voornaam">
-                <label>Achternaam</label><input type="text" placeholder="Achternaam">
-                <label>E-mail *</label><input type="email" placeholder="E-mail*">
-                <label>Laat een bericht achter</label><input type="text" placeholder="Laat een bericht achter">
-                <input type="submit" value="Versturen">
-            </form>
+                <!-- <p>Socialmedia: https://www.linkedin.com/company/water4later/
+                    https://www.instagram.com/water4later/?igshid=YmMyMTA2M2Y%3D
+                </p> -->
+
+
+                <form id="footer-contact-form">
+                <h3>Of laat hier je gegevens achter zodat wij contact met jou op kunnen nemen</h3>
+                    <label>Voornaam</label><input type="text" placeholder="Voornaam">
+                    <label>Achternaam</label><input type="text" placeholder="Achternaam">
+                    <label>E-mail *</label><input type="email" placeholder="E-mail*">
+                    <label>Laat een bericht achter</label><input type="text" placeholder="Laat een bericht achter">
+                    <input type="submit" value="Versturen">
+                </form>
         </section>
+        </div>
         <p>Made with 💙 by Tessa Viergever </p>
     </footer>
 
