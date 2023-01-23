@@ -71,15 +71,12 @@ a {
 }
 
 
-
-
-
-
-
+/* ------ MAIN STYLING ------ */
 main button {
-    background-color:var(--color-grey-blue);
+    background-color: var(--color-grey-blue);
     color: var(--color-grey-footer);
     padding: 1rem;
+    margin: 1em 0 1em 0;
     border: none;
     border-radius: var(--border-radius);
     font-size: 0.8em;
@@ -88,37 +85,21 @@ main button {
 }
 
 main button:hover {
-    background-color: rgb(50, 47, 47);
-    color: white;
     box-shadow: 0 0 0 0 rgb(198, 196, 196), 0 0 0 0 rgb(198, 196, 196);
 }
 
 main button:focus {
-    background-color: var(--color-grey-blue);
-    color:var(--color-grey-footer);
+    background-color: var(--color-grey-footer);
+    color: var(--color-grey-blue);
+    box-shadow: 0 0 0 0 rgb(198, 196, 196), 0 0 0 0 rgb(198, 196, 196);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ------ HEADER STYLING ------ */
 
 header {
     z-index: 20;
     width: 100%;
-    height: 7rem;
+    height: 5rem;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -136,7 +117,6 @@ header {
     align-items: center;
 }
 
-
 nav {
     position: absolute;
     top: 7rem;
@@ -144,43 +124,27 @@ nav {
     z-index: 10;
     padding: 1rem 2vw;
     background-color: rgb(181, 181, 162);
-    /* transform: translateY(-100%); */
+    transform: translateY(-100%); 
+    display: none;
     transition: all 0.25s;
 }
 
 nav.open {
     transform: translateY(0);
+    position: relative;
+    background-color: hotpink;
+    /* display:contents; */
 }
 
 nav ul {
     list-style: none;
 }
 
-
-
-
 /* ------ SECTION STYLING ------ */
 
 section {
     margin: 0 0 1rem 0;
 }
-
-/* section button {
-    background-color: var(--color-grey-footer);
-    color: white;
-    padding: 1rem;
-    border: none;
-    border-radius: var(--border-radius);
-    font-size: 0.8em;
-    box-shadow: var(--box-shadow);
-    transition-duration: 0.4s;
-}
-
-section button :hover {
-    background-color:red;
-} */
-
-
 
 .section-uneven {
     background-color: var(--color-grey-blue);
@@ -193,43 +157,88 @@ section button :hover {
 }
 
 
-
 /* STYLING SECTION: BANNER  */
 #banner {
     width: 100%;
+    min-height: 75%;
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 1em 0 1em 0;
 }
 
 #banner img {
     width: 100%;
+    height: auto;
     position: absolute;
     z-index: 10;
+    object-fit: contain;
 }
 
 #banner div {
     color: rgba(245, 245, 245, 1);
     background: rgba(0, 0, 0, 0.4);
     padding: 1rem 1rem 1rem 1rem;
+    margin: 1em 0 0 0;
     z-index: 20;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
     border-radius: 5px;
     width: 75%;
     position: relative;
 }
 
+#banner div #banner-button {
+    background-color: var(--color-grey-footer);
+    color: var(--color-grey-blue);
+    padding: 1rem;
+    margin: 1em 0 1em 0;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 0.8em;
+    box-shadow: var(--box-shadow);
+    transition-duration: 1s;
+}
+
+#banner div #banner-button:hover {
+    box-shadow: 0 0 0 0 rgb(198, 196, 196), 0 0 0 0 rgb(198, 196, 196);
+}
+
+#banner div #banner-button:focus {
+    background-color: var(--color-grey-blue);
+    color: var(--color-grey-footer);
+    box-shadow: 0 0 0 0 rgb(198, 196, 196), 0 0 0 0 rgb(198, 196, 196);
+}
+
 /* STYLING SECTION: HOW IT WORKS */
 #how-it-works {
-    margin: 6.5rem 0 0 0;
+    margin: 0rem 0 1rem 0;
+    padding: 0 0 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 #how-it-works .technical-drawing-info img {
     width: 100%;
+    height: auto;
+    /* overflow-clip-margin: content-box;
+    overflow: clip; */
 }
+
+.technical-drawing-info {
+    /* display:flex;
+    flex-direction: column; */
+}
+
+
 
 /* STYLING SECTION: SERVICES */
 #services {
@@ -248,14 +257,40 @@ section button :hover {
 
 #services img {
     border-radius: 50%;
+
 }
 
-/* #services div h3 {
-    margin: 1rem 0;
-} */
 
 
 /* STYLING SECTION: PRODUCTS */
+
+#products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+.product-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container {}
+
+#products .product-container img {
+    width: 100%;
+    height: auto;
+
+
+}
+
 
 /* STYLING SECTION: OUR TEAM */
 #our-team div img {
@@ -278,12 +313,55 @@ footer {
 #footer-contact {
     display: flex;
     flex-direction: column;
+    padding: 0 2em;
+}
+
+#footer-contact a {
+    /* white-space: nowrap;
+    display:flex;
+    align-items:center; */
+    color: white;
+    text-decoration: none;
+}
+
+#footer-contact a svg {
+    margin-right: 0.5em;
+}
+
+#footer-contact-form {
+    padding: 0 2em;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: var(--color-grey-blue);
+    color: var(--color-grey-footer);
 }
 
 
-/* STYLING FOOTER SECTION: CONTACT */
+#footer-contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#footer-contact-form label {
+    padding: 0.5em 0;
+}
+
+#footer-contact-form input {
+    padding: 0.5em 0.5em;
+    font-style: italic;
+}
 
 
+#footer-contact-form .send {
+    padding: 1em;
+    margin-top: 2em;
+    font-style: normal;
+}
 
 
 
@@ -297,6 +375,37 @@ footer {
 
 /* ------ MEDIA QUERIES ------ */
 
+/* nav menu van hamburger icon -> naast elkaar */
+@media screen and (min-width: 500px) {
+    nav ul {
+        list-style: none; 
+        display: flex;
+        gap: 1rem;
+        padding: 0;  
+}
+
+
+}
+
+
+
+/*  how-it-works breakpoint */
+@media screen and (min-width: 650px) {
+    #how-it-works {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #technical-drawing-and-info-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+}
+
 /* services breakpoint */
 @media screen and (min-width: 400px) {
     .services-container {
@@ -308,7 +417,10 @@ footer {
         background-color: white;
         gap: 1rem;
         width: 100%;
+        scroll-snap-type:
     }
+
+    
 
     .services-container div {
         background-color: var(--color-grey-blue);
@@ -316,36 +428,62 @@ footer {
     }
 }
 
-/* our team breakpoint */
+/* products breakpoint */
+@media screen and (min-width: 550px) {
+    .product-container img {
+        padding: 0 3em 0.5em 3em;
+    }
+}
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 800px) {
+    #product-container-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .product-container img {
+        padding: 0;
+
+    }
+}
+
+/* our team breakpoint */
+@media screen and (min-width: 525px) {
     #container-introduction-co-founders {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: space-between;
-    
+        gap: 0.5em;
+        width: 100%;
     }
 
-   #introduction-co-founder-1 {
-    background-color: red;
-   } 
+    #introduction-co-founder-1 {
+        border: 1px black;
+        margin: 1em 1em 1em 2em;
+        background-color: white;
+        padding: 0.75em 0.75em;
+    }
 
-   #introduction-co-founder-2 {
-    background-color: hotpink;
-   }
-   
+    #introduction-co-founder-2 {
+        border: 1px black;
+        margin: 1em 2em 1em 1em;
+        background-color: white;
+        padding: 0.75em 0.75em;
+    }
 }
 
-
 /* footer breakpoint */
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 550px) {
     .footer-contact-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         gap: 3rem;
-        padding: 5rem;
+        padding: 1em 0 1em 0;
     }
 
     #footer-contact {
@@ -359,6 +497,7 @@ footer {
     }
 
     footer p {
+        width: 100vw;
         display: flex;
         justify-content: center;
         background-color: var(--color-grey-blue);
@@ -368,13 +507,3 @@ footer {
 
 
 }
-
-
-/* @media screen and (min-width: px) {
-    nav ul {
-        list-style: none; 
-        display: flex; <-- @media maken
-        gap: 1rem;
-        padding: 0;  
-}
-} */
