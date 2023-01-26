@@ -56,7 +56,7 @@ Done:
 <br>
 ✔️ bouwen: HTML opzetten als fundering van de pagina, CSS voor het vormgeven van de HTML, JavaScript om de pagina interactief te maken
 <br>
-✔️ intergreren: mijn code van lokaal (mijn laptop) naar Github (externe server) uploaden 
+✔️ integreren: mijn code van lokaal (mijn laptop) naar Github (externe server) uploaden 
 <br>
 ✔️ testen: responsiveness: op verschillende apparaten gekeken, (design & code)feedback van medestudenten en docenten verwerken, 
 
