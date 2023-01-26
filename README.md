@@ -17,9 +17,6 @@ Water4LAter wil met hun regenwateropvangsysteem de verspilling van schoon drinkw
 
 Op deze webisite kunnen bezoekers (aannemers van nieuwbouwwoningen) informatie vinden over Water4Later. De bezoeker kan zien hoe het product werkt, welke diensten en producten Water4Later aanbiedt, wie de oprichters van deze start-up zijn én hoe je met ze in contact kunt komen. De bezoeker kan zowel vanaf mobiel, tablet of laptop door de pagina browsen want de website is responsive (past zich aan aan het scherm waarop hij bekeken wordt).
 <br>
-<br>
-🌐 http://water4later.tviergever.student.fdnd.nl/
-<br>
 
 Op mobiel
 <br>
@@ -34,6 +31,9 @@ Op tablet
 Op laptop
 <br>
 <img width="750" alt="screenshot laptop 25-01-23" src="https://user-images.githubusercontent.com/112861180/214591268-e5ec5f52-3889-4866-b8dd-03216771d5a6.png">
+<br>
+<br>
+🌐 http://water4later.tviergever.student.fdnd.nl/
 
 ## Kenmerken💻 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
