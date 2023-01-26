@@ -24,6 +24,7 @@
 }
 
 /* ------ BASIC ELEMENTS ------ */
+
 html {
     scroll-behavior: smooth;
 }
@@ -60,6 +61,7 @@ a {
 
 
 /* ------ MAIN STYLING ------ */
+
 main button {
     background-color: var(--color-grey-blue);
     color: var(--color-grey-footer);
@@ -154,8 +156,8 @@ section {
     box-shadow: var(--box-shadow);
 }
 
-
 /* STYLING SECTION: BANNER  */
+
 #banner {
     width: 100%;
     min-height: 75%;
@@ -174,7 +176,6 @@ section {
     z-index: 10;
     object-fit: contain;
 }
-
 
 #banner div {
     color: rgba(245, 245, 245, 1);
@@ -258,13 +259,8 @@ main #how-it-works button #contact-button-how-it-works {
     color: var(--color-grey-footer);
 }
 
-
-
-
-
-
-
 /* STYLING SECTION: SERVICES */
+
 #services {
     display: flex;
     flex-wrap: wrap;
@@ -281,10 +277,7 @@ main #how-it-works button #contact-button-how-it-works {
 
 #services img {
     border-radius: 50%;
-
 }
-
-
 
 /* STYLING SECTION: PRODUCTS */
 
@@ -331,7 +324,6 @@ main #how-it-works button #contact-button-how-it-works {
     width: 100%;
 }
 
-
 #container-introduction-co-founder {
     margin: 0 0 0 1em;
 }
@@ -345,9 +337,6 @@ main #how-it-works button #contact-button-how-it-works {
 #introduction-co-founder-2:hover {
     transform: scale(0.98);
 }
-
-
-
 
 /* ------ FOOTER STYLING ------ */
 
@@ -387,7 +376,6 @@ footer p {
     color: var(--color-grey-footer);
 }
 
-
 #footer-contact-form {
     display: flex;
     flex-wrap: wrap;
@@ -403,13 +391,11 @@ footer p {
     font-style: italic;
 }
 
-
 #footer-contact-form .send {
     padding: 1em;
     margin-top: 2em;
     font-style: normal;
 }
-
 
 /* ------ MEDIA QUERIES ------ */
 
@@ -448,7 +434,6 @@ footer p {
     #button-hamburger-menu {
         display: none;
     }
-
 }
 
 /* banner breakpoints */
@@ -460,7 +445,6 @@ footer p {
         align-items: center;
         gap: 1em;
         /* width: 50%; */
-
     }
 }
 
@@ -472,14 +456,8 @@ footer p {
         align-items: center;
         gap: 1em; */
         width: 50%;
-
     }
 }
-
-/* media screen and (min-width: 730px)
-#how-it-works .technical-drawing-info img {
-    max-width: 70%;
-} */
 
 /*  how-it-works breakpoints */
 
@@ -515,7 +493,6 @@ footer p {
         align-items: stretch;
     }
 
-
     #technical-drawing-and-info-3 {
         display: flex;
         flex-direction: row;
@@ -544,22 +521,20 @@ footer p {
     }
 }
 
-
-
-
 /* @media screen and (min-width: 800px) {
 
-    #how-it-works {
-        width: 100%;
-    }
+        #how-it-works {
+            width: 100%;
+        }
 
-    .technical-drawing-info {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        border: solid 2px var(--color-sand);
-        margin: 0.5em 1em 0.5em 1em;}
+        .technical-drawing-info {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: solid 2px var(--color-sand);
+            margin: 0.5em 1em 0.5em 1em;
+        }
 
         #technical-drawing-and-info-2 {
             width: 100%;
@@ -567,10 +542,7 @@ footer p {
             flex-direction: row;
             flex-wrap: wrap;
         }
-
-
     } */
-
 
 /* services breakpoint */
 @media screen and (min-width: 400px) {
@@ -658,8 +630,6 @@ footer p {
         padding: 0.75em 0.75em;
     }
 }
-
-@media screen and (min-width: 525px) {}
 
 /* footer breakpoint */
 @media screen and (min-width: 550px) {
