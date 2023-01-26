@@ -2,21 +2,16 @@
 
 ## Inhoudsopgave
 
-* De opdrachtgever🚀 
-* De opdracht📝
-* Kenmerken💻 
-* Checklist✅ 
-* Licentie🔒 
-
-
 * [De opdrachtgever🚀](#Deopdrachtgever🚀)
-* [De opdracht📝](##Deopdracht📝)
-* [Kenmerken💻](##Kenmerken💻)
-* [Checklist✅](##Checklist✅)
-* [Licentie🔒](##Licentie🔒)
+* [De opdracht📝](#Deopdracht📝)
+* [Kenmerken💻](#Kenmerken💻)
+* [Checklist✅](#Checklist✅)
+* [Licentie🔒](#Licentie🔒)
 
 
 ## De opdrachtgever🚀  
+
+Water4LAter is een jong bedrijf dat . Deze startup is opgezet door Jim Paase en Bart Boonstra. 
 
 ## De opdracht📝
 
