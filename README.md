@@ -73,6 +73,8 @@ Not yet:
 ❌ contact formulier werkt niet (+ in de code nog wat aanpassingen nodig voor toegankelijkheid)
 <br>
 ❌ afbeeldingen "hoe het werkt" aanpassen (zijn nu random afbeeldingen uit de pdf)
+<br>
+❌ menu (mobiele versie) - uitgeklapte menu anders vormgeven
 
 ## Licentie🔒 
 
