@@ -10,10 +10,10 @@
 
 
 * [De opdrachtgever🚀](#Deopdrachtgever🚀)
-* [De opdracht📝](#Deopdracht📝)
-* [Kenmerken💻](#Kenmerken💻)
-* [Checklist✅](#Checklist✅)
-* [Licentie🔒](#Licentie🔒)
+* [De opdracht📝](##Deopdracht📝)
+* [Kenmerken💻](##Kenmerken💻)
+* [Checklist✅](##Checklist✅)
+* [Licentie🔒](##Licentie🔒)
 
 
 ## De opdrachtgever🚀  
