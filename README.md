@@ -43,7 +43,7 @@ Dit project is gemaakt met HTML en CSS. Ook is er gebruik gemaakt van verschille
 * CSS - het vormgeven van de HTML (bijv. gebruik van media queries voor responsiveness)
 * JavaScript - maakt de pagina interactief (mobiele versie: menu aantikken = menu klapt open)
 * VSC - texteditor waarin de HTML, CSS en JS geschreven is
-* Github - externe server voor het huisvesten van de pagina + verantwoordelijk lokale aanpassingen te en backup.
+* Github - externe server voor het huisvesten van de pagina + koppeling tussen lokaal/server en als backup.
 * Schrijfwaren & papier - voor het maken van ontwerpschetsen
 
 ## Checklist✅
