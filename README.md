@@ -58,7 +58,7 @@ Done:
 <br>
 ✔️ integreren: mijn code van lokaal (mijn laptop) naar Github (externe server) uploaden 
 <br>
-✔️ testen: responsiveness: op verschillende apparaten gekeken, (design & code)feedback van medestudenten en docenten verwerken, 
+✔️ testen: responsiveness: op verschillende apparaten gekeken, (design & code)feedback van medestudenten en docenten verwerkt 
 
 Not yet:
 <br>
