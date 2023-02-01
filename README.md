@@ -11,7 +11,7 @@
 
 ## De opdrachtgever🚀  
 
-Water4LAter wil met hun regenwateropvangsysteem de verspilling van schoon drinkwater tegengaan. Deze startup is opgezet door Jim Paase en Bart Boonstra. 
+Water4Later wil met hun regenwateropvangsysteem de verspilling van schoon drinkwater tegengaan. Deze startup is opgezet door Jim Paase en Bart Boonstra. 
 
 ## De opdracht📝
 
